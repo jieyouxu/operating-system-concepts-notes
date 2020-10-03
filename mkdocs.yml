@@ -3,6 +3,9 @@ site_name: Notes on Operating System Concepts
 nav:
     - Home:
         - index.md
+    - Introduction:
+        - Introduction: introduction/index.md
+        - Computer System Organization: introduction/computer-system-organization.md
     - References:
         - references.md
 
