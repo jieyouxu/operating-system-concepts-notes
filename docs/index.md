@@ -1,17 +1,37 @@
-# Welcome to MkDocs
+# Notes on Operating System Concepts
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+These notes mostly follow the *Operating System Concepts*[^1]
+[\[OSC\]][OSC] book by Silberschatz et al., but may also contain additional
+remarks and may link to other external resources, including but not limited to:
+blog posts, conference talks, journal articles, papers, code, repositories, etc.
 
-## Commands
+When no inline citation is specified, assume the material is adapted from
+[\[OSC\]][OSC].
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+[Get the Operating System Concepts book :book:][OSC]{: .md-button }
 
-## Project layout
+!!! note "Citation conventions"
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    We use the IEEE Access citation style for [References].
+
+    We use one of the following inline-citation style:
+
+    === "Author-year Key"
+
+        Examples:
+
+        - [John1999]
+        - [John2000a]
+
+    === "Abbreviation Key"
+
+        Examples:
+
+        - [RFC793]
+        - [CLRS]
+
+    as the key to the [References].
+
+[OSC]: https://codex.cs.yale.edu/avi/os-book/
+[References]: ./references.md
+[^1]: <https://codex.cs.yale.edu/avi/os-book/>
